@@ -1,0 +1,33 @@
+<!-- template homeBG -->
+<script type="x-jquery-tmpl" id="temp_homeBG">
+  <div class="titles">
+    <h3>EXPERT PHOTOGRAPHER</h3>
+    <h4 style="opacity: 0.8;">Here is the world you start from.</h4>
+  </div>      
+</script>
+<!-- template homeBGL -->
+<script type='x-jquery-tmpl' id='temp_homeBGL'>
+
+</script>
+<!-- template home -->
+<script type='x-jquery-tmpl' id='temp_home1'>
+  <ul class='slides'>
+  	{{each lineItems}}
+  		{{tmpl($value)}}
+		{{/each}}
+  </ul>
+</script>
+<script type='x-jquery-tmpl' id='temp_homeRow'>
+  <li data-id=${index} class="" style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;">
+		<div class="image">
+			<img src=${imgPath} class="load-jpg full-height" style="margin-top: 0px;">
+		</div>
+		<div class="content" style="opacity: 0.8;">
+			<div class="top-bar"></div>
+			<div class="titles">
+				<h3>${title}</h3>
+				<h4 style="opacity: 0.8;">${description}</h4>
+			</div>
+		</div>
+	</li>
+</script>

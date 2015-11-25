@@ -1,0 +1,31 @@
+<!-- template homeBG -->
+<script type="text/x-kendo-template" id="temp_home">
+	<ul class=slides>
+	# for (var i = 0;i < data.length;i++){ #
+		<li>
+			<img src=#= data[i].imgPath # style='height: 100%; width: auto' />
+			<div class=content style='opacity: 0.8;'>
+				<div class=top-bar></div>
+				<div class=titles>
+					<h3>#= data[i].title #</h3>
+					<h4 style='opacity: 0.8;'>#= data[i].description #</h4>
+				</div>
+			</div>
+		</li>
+		# } #
+	</ul>   
+</script>
+
+
+<!-- <li data-id=#＝ data.[i].index # style='width: 100%; float: left; margin-right: -100%; position: relative; display: none;'>
+			<div class=image>
+				<img src=#= data[i].imgPath # class='load-jpg full-height' style='margin-top: 0px;'>
+			</div>
+			<div class=content style='opacity: 0.8;'>
+				<div class=top-bar></div>
+				<div class=titles>
+					<h3>#= data[i].title #</h3>
+					<h4 style='opacity: 0.8;'>#= data[i].description #</h4>
+				</div>
+			</div>
+		</li> -->

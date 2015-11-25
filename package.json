@@ -1,0 +1,23 @@
+{
+  "name": "testzh",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "duoduo",
+  "license": "MIT",
+  "dependencies": {
+    "basic-auth": "^1.0.3",
+    "body-parser": "^1.14.1",
+    "date-utils": "^1.2.17",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.7",
+    "multer": "^1.1.0",
+    "path": "^0.12.7"
+  }
+}
