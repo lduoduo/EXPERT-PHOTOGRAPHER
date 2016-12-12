@@ -25,3 +25,5 @@ photoSvc.getMostPopularBG = function(cb){
     }
     exports.photoSvc = photoSvc;
   }
+
+  //module.exports & exports.XXX - > make this be public to other file
